@@ -1,12 +1,12 @@
-function ehTaina(texto) {
+function ehThais(texto) {
   return new Promise((resolve, reject) => {
-    if(texto == "Tainá") {
+    if(texto == "Thaís") {
       resolve(console.log(`sim é a ${texto}`));
     } else {
-      reject(new Error(`Mentira! Não é a Tainá!`));
+      reject(new Error(`Mentira! Não é a Thaís!`));
     }
   });
 }
 
-ehTaina("Tainá");
-ehTaina("Claudia");
+ehThais("Thaís");
+ehThais("Claudia");

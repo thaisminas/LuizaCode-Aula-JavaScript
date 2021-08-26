@@ -11,7 +11,7 @@ function buscarEmail(id){
     console.log("Buscando o email")
     return new Promise((resolve, reject) => {
         setTimeout(() => {
-            resolve("anne@gmail.com")
+            resolve("thais@gmail.com")
         }, 3000)
     })
 }

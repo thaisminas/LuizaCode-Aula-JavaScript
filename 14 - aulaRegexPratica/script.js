@@ -1,6 +1,6 @@
 const numeros = /[?www.]\w+\.com.br|.com/;
 
-console.log(numeros.test("www.taina.com.br"));
-console.log(numeros.test("www.taina.com"));
-console.log(numeros.test("taina.com"));
-console.log(numeros.test("www.taina"));
+console.log(numeros.test("www.thais.com.br"));
+console.log(numeros.test("www.thais.com"));
+console.log(numeros.test("thais.com"));
+console.log(numeros.test("www.thais"));

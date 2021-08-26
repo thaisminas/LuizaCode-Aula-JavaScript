@@ -6,10 +6,10 @@ const sou = new Promise(function (resolve) {
   }, 5000);
 });
 
-const taina = new Promise((resolve) => {
-  resolve("Tainá");
+const thais = new Promise((resolve) => {
+  resolve("Thaís");
 });
 
-Promise.all([eu, sou, taina]).then((values) => {
+Promise.all([eu, sou, thais]).then((values) => {
   console.log(values);
 });
